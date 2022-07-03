@@ -12,6 +12,10 @@ djangorestframework = "^3.13.1"
 djangorestframework-jwt = "^1.11.0"
 
 [tool.poetry.dev-dependencies]
+black = "^22.6.0"
+mypy = "^0.961"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
